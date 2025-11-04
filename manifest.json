@@ -14,11 +14,12 @@
       "type": "image/png"
     },
     {
-      "src": "icons/icon-196.png",
+      "src": "icons/icon.jpeg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/jpeg"
     }
   ]
 }
+
 
 
