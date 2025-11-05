@@ -545,8 +545,25 @@
                 </div>
             </div>
             
-            <a href="#">Winters</a>
-            <a href="#">Special Prices</a>
+            <a href="#" id="winter-btn">❄️ Winters</a>
+             <script>
+    document.getElementById("winter-btn").addEventListener("click", () => {
+      document.body.classList.add("fade-out");
+      setTimeout(() => {
+        window.location.href = "winter.html";
+      }, 700);
+    });
+  </script>
+            <a href="#"  id="summer-btn">🌞 Summer</a>
+            <script>
+  document.getElementById("summer-btn").addEventListener("click", () => {
+    document.body.classList.add("fade-out");
+    setTimeout(() => {
+      window.location.href = "summer.html";
+    }, 700);
+  });
+</script>
+
             <a href="track-orders.html">Track Your Order</a>
             <a href="contact-us.html">Contact Us</a>
         </nav>
