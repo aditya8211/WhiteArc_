@@ -1,4 +1,4 @@
-const CACHE_NAME = "whitearc-v2";
+const CACHE_NAME = "whitearc-v4";
 const urlsToCache = [
   "/",
   "/index.html",
@@ -77,4 +77,5 @@ self.addEventListener("message", event => {
     self.skipWaiting();
   }
 });
+
 
