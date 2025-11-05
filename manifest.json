@@ -1,13 +1,12 @@
 {
-  "name": "WhiteArc Store",
+  "name": "WhiteArc",
   "short_name": "WhiteArc",
-  "description": "Buy latest fashion, electronics, and more — now as a PWA!",
-  "start_url": "index.html",
+  "description": "WhiteArc Online Shopping App",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0d6efd",
-  "orientation": "portrait",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "icons/icon-192.png",
