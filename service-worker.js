@@ -1,4 +1,4 @@
-const CACHE_NAME = "whitearc-v3";
+const CACHE_NAME = "whitearc-v4";
 const urlsToCache = [
   "/",
   "/index.html",
@@ -14,6 +14,10 @@ const urlsToCache = [
   "/track-orders.html",
   "/icons/icon-192.png",
   "/icons/icon-192.png",
+  "winter.html",
+  "summer.html",
+  "summer.css",
+  "winter.css",
 
   // 🖼️ Product images (add your actual image paths here)
   "/images/product1.jpg",
