@@ -71,3 +71,10 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+// 🔔 Listen for skipWaiting message from the main thread
+self.addEventListener("message", event => {
+  if (event.data && event.data.action === "skipWaiting") {
+    self.skipWaiting();
+  }
+});
+
